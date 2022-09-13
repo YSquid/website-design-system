@@ -1,0 +1,56 @@
+/* General Styles */
+
+h1 {
+    margin: 20px auto;
+    width: 75%;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.container {
+    display: block;
+    border: 1px solid gray;
+    width: 75%;
+    height: fit-content;
+    margin: 20px auto;
+}
+
+/* color section styles */
+
+.color-container {
+    display: block;
+    margin: auto 10px;
+    height: fit-content;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.salmon {
+    background-color: #EDC7B7;
+}
+
+.tan {
+    background-color: #EEE2DC;
+}
+
+.brown-grey {
+    background-color: #BAB2B5;
+}
+
+.dark-blue {
+    background-color: #123C69;
+}
+
+.dark-pink {
+    background-color: #AC3B61;
+}
