@@ -3,10 +3,16 @@
 h1 {
     margin: 20px auto;
     width: 75%;
+    font-family: 'Roboto', 'Poppins', sans-serif;
 }
 
 h2 {
     margin-left: 10px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+p {
+    margin: 20px 10px;
 }
 
 .container {
@@ -53,4 +59,44 @@ h2 {
 
 .dark-pink {
     background-color: #AC3B61;
+}
+
+/*fonts section styles */
+
+.fonts-container {
+    display: block;
+    margin: auto 10px;
+    height: fit-content;
+}
+
+.font-panel h3 {
+    text-decoration: underline;
+}
+
+.roboto {
+    font-family: 'Roboto', sans serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.source-code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* text-style rules */
+
+
+
+.textsty-container h1 {
+    margin: 20px 10px;
 }
